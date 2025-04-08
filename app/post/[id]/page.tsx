@@ -9,20 +9,20 @@ import { formatDistanceToNow } from 'date-fns'
 const BLOGS = [
   {
     id: '1',
-    title: 'Three Winners Get a FREE Call (App Builders Only)',
+    title: 'Three Winners Get a FREE prompt (Website Builders Only)',
     content: `
       <p>Hey Reader,</p>
-      <p>I know the feeling. Your killer app idea is trapped. Developers bleed you dry, no-code tools hit walls, and you're left wondering if it's even worth it. It sucks. But it's not over.</p>
-      <p>Picture this: You build and launch your app fast, no coding, no insane costs. That's the AI Coding Blueprint. I show you how, building a real app live with you. No fluff, no theory.</p>
+      <p>I know the feeling. Your killer website idea is trapped. Developers bleed you dry, no-code tools hit walls, and you're left wondering if it's even worth it. It sucks. But it's not over.</p>
+      <p>Picture this: You build and launch your website fast, no coding, no insane costs. That's the AI Coding Blueprint. I show you how, building a real website live with you. No fluff, no theory.</p>
       <p>Here's the deal:</p>
       <ul>
         <li>Get early access to every lesson as it drops</li>
         <li>Your feedback decides exactly what we learn next</li>
         <li>You lock in the lowest price before public launch</li>
       </ul>
-      <p>Sound good? There's a twist: To kick things off, I'm giving away FREE 30-minute calls to help you push through your biggest roadblock.</p>
+      <p>Sound good? There's a twist: To kick things off, I'm giving away FREE 3 prompts to help you push through your biggest roadblock.</p>
       <p>Three spots. That's it.</p>
-      <p>Just email me what you're building, what's blocked you, and what would happen if you could finally get unstuck. The most compelling stories get the calls.</p>
+      <p>Just email me what you're building, what's blocked you, and what would happen if you could finally get unstuck. The most compelling stories get the prompts.</p>
       <p>Let's do this.</p>
       <p>Achyut</p>
     `,
@@ -150,55 +150,83 @@ const BLOGS = [
   },
   {
     id: '4',
-    title: 'The AI Gold Rush (That Nobody Is Talking About)',
+    title: 'The Future of AI: A World Transformed and the Rise of the AI-Savvy Generation',
     content: `
-      <p>Hey Reader,</p>
-      <p>I'm late to write this email, but for a good reason. And it might be the best mistake I've made in years.</p>
-      <p>Because for the past week, I've obsessed about AI coding. No videos. No Instagram stories. Nothing. Just building apps.</p>
-      <p>And what I learned changes everything for small business owners like us.</p>
-      <p>I just built THREE completely functional apps using only AI. Think about that. No coding required.</p>
-      <p>I remember when "building an app" would cost tens of thousands of dollars. But this week I built:</p>
-      <ul>
-        <li>A video editing app that automatically adds subtitles</li>
-        <li>A web app that converts voice notes to text summaries</li>
-        <li>A tool that turns my podcast episodes into newsletter content</li>
-      </ul>
-      <p>Total cost? Less than $100.</p>
-      <p>This is the gold rush nobody is talking about. While everyone debates "will AI take our jobs," smart entrepreneurs are quietly building 6 and 7-figure businesses with AI tools.</p>
-      <p>The secret? Don't try to build the perfect app. Build something that solves ONE specific problem for ONE specific audience.</p>
-      <p>More soon,</p>
-      <p>Achyut</p>
+      <p>Artificial Intelligence (AI) isn't just a tool—it's a tidal wave reshaping the world as we know it. By April 2025, we're already seeing its ripples: OpenAI's $300 billion valuation, DeepSeek's open-source insurgency, and SoftBank's trillion-dollar robot factory gambit. But this is just the beginning. The future of AI promises a seismic shift in economies, societies, and individual fortunes. Here's what's coming—and why the young students betting big on AI might just outpace their peers in wealth and success.</p>
+
+      <h2>AI's Global Takeover: The Next Decade</h2>
+      <p>Picture this: by 2035, AI-powered robots assemble cars, homes, and even food in sprawling factories, like SoftBank's envisioned U.S. hubs. Algorithms don't just predict stock markets—they run them, as doubts about AI stocks today give way to dominance tomorrow. Creative industries, from Hollywood to music, lean harder on AI, blending human genius with machine precision (think Oscar-winning AI scripts). Bill Gates hints that AI won't touch a few sacred jobs—maybe doctors or therapists—but everything else? Fair game.</p>
+
+      <p>The numbers back this up. If OpenAI's profitability timeline holds (2029), and DeepSeek's free models flood the market, AI's cost-to-power ratio will plummet, making it ubiquitous. Education will flip: universities might ditch calculus for neural network design. Geopolitics will tense as nations like China (with DeepSeek) and the U.S. (with OpenAI) vie for AI supremacy, while climate tech—powered by AI—could finally slow the planet's fever. The world won't just change; it'll be rebuilt.</p>
+
+      <h2>Society Rewired: Winners and Losers</h2>
+      <p>AI's impact won't be equal. Jobs will vanish—think truck drivers, accountants, even some coders—replaced by systems like Grok or V3. But new roles will explode: AI ethicists, model trainers, and robot wranglers. Wealth will concentrate where innovation thrives, rewarding those who master AI's levers. Social media, already shifting with Musk's X-to-AI pivot, could become an AI-driven influence machine, amplifying voices that harness it best. The catch? Access. If DeepSeek's open-source vision wins, the gap between tech haves and have-nots might shrink. If OpenAI's proprietary empire holds, expect a steeper divide.</p>
+
+      <h2>The AI Generation's Edge</h2>
+      <p>Now, consider the students in 2025. Some are grinding through traditional subjects—history, biology, law—while others are all-in on AI: coding, machine learning, data science. Who's set to strike it rich? The AI crew has a head start. Take the indie developer who hit $1 million MRR with an AI app in hours—proof that mastering tools like GPT-4o can turn a laptop into a goldmine. These kids aren't just learning tech; they're learning to build the future.</p>
+
+      <p>Contrast that with traditional paths. Law might endure, but AI legal bots are coming. Biology's vital, but AI-driven biotech will lead. History? Inspiring, but not a cash cow. The data's clear: AI-related fields are growing faster—think 20% annually versus 3% for legacy sectors. Students who prioritize AI aren't just chasing trends; they're positioning for a world where adaptability trumps rote knowledge. They'll launch startups, snag high-paying tech gigs, or invent the next ChatGPT. Their peers in traditional lanes might succeed, but the ceiling's lower—AI's exponential curve favors the bold.</p>
+
+      <h2>Risks and Realities</h2>
+      <p>It's not all rosy. AI's hype could crash if stocks falter or if ethical scandals (like Grok's "unhinged" answers) erode trust. Students over-focusing on AI might miss soft skills—empathy, creativity—that machines can't fake (yet). And if AI automates too fast, even their jobs could vanish. But the odds tilt their way. DeepSeek's rise shows that free tools lower the entry bar, while OpenAI's ecosystem proves the payoff for mastery. Flexibility, not tradition, is the new currency.</p>
+
+      <h2>The World Ahead</h2>
+      <p>AI's future is a paradox: dazzling and daunting. It'll solve crises—climate, health—while sparking new ones—inequality, control. For the young, it's a golden ticket, but only if they ride the wave. Those prioritizing AI over traditional subjects aren't guaranteed riches, but they're betting on the right horse. In a world where AI writes the script, they're the ones holding the pen. The rest? They'll adapt—or watch from the sidelines.</p>
+
+      <p>What's your take—will AI crown a new elite, or level the field? The future's unwritten, but the ink's already AI-powered.</p>
     `,
     image: '/blog4.jpg',
     date: '19 days ago',
     timestamp: new Date(Date.now() - 19 * 24 * 60 * 60 * 1000), // 19 days ago
-    readTime: '1 min read'
+    readTime: '8 min read'
   },
   {
     id: '5',
-    title: 'The Brutal Truth About AI (What It Means For You)',
+    title: 'Gemini 2.5 Pro vs. DeepSeek V3-0324 vs. Claude 3.7 Sonnet: The Coding Showdown of 2025',
     content: `
-      <p>Hey Reader,</p>
-      <p>AI just replaced me... and I helped it happen.</p>
-      <p>This week, I've maybe done too much with AI. I've trained my own image models. Created videos from AI images. Tricked my wife with a clone of my voice.</p>
-      <p>And I've got bad news. You've probably heard this before...</p>
-      <p>AI won't replace you, but someone using AI will.</p>
-      <p>This isn't just clickbait. It's happening right now. Don't believe me?</p>
-      <p>A friend of mine just lost a $5k/month client because ChatGPT now writes their weekly newsletter. Another lost their design gig because Midjourney creates better thumbnails faster.</p>
-      <p>But here's the twist: The people who are WINNING right now aren't the ones who know how to code or prompt. It's the people who:</p>
-      <ol>
-        <li>Know exactly what they want AI to do</li>
-        <li>Understand how to check AI's work</li>
-        <li>Can combine different AI tools to create something unique</li>
-      </ol>
-      <p>This is both terrifying and exciting. Because for the first time in history, technical skill matters less than vision.</p>
-      <p>More thoughts on this soon,</p>
-      <p>Achyut</p>
+      <p>The AI race in 2025 is a coder's dream—or nightmare, depending on your perspective. With Google's Gemini 2.5 Pro, DeepSeek's V3-0324, and Anthropic's Claude 3.7 Sonnet vying for supremacy, developers are spoiled for choice. But which one truly reigns supreme when it comes to coding capabilities and generation? Let's break it down, test their mettle, and crown a winner based on what matters: raw coding power, usability, and real-world results.</p>
+
+      <h2>The Contenders</h2>
+      <p>Gemini 2.5 Pro: Google's latest "thinking model," launched in March 2025, boasts a 1-million-token context window and claims to crush rivals in reasoning and coding. It's fast, free for basic use, and built for complex, multi-domain tasks.</p>
+      <p>DeepSeek V3-0324: Released on March 24, 2025, this open-source beast from China's DeepSeek refines its V3 lineage. With 671 billion parameters (37 billion active per task), it's a cost-effective powerhouse, excelling in efficiency and raw output.</p>
+      <p>Claude 3.7 Sonnet: Anthropic's hybrid reasoning model, out since February 2025, is the darling of coders. It's precise, readable, and dominates benchmarks like SWE-Bench with an 81.2% score, thanks to its "extended thinking" mode.</p>
+
+      <h2>Coding Capabilities: The Head-to-Head</h2>
+      <p>To judge these titans, we'll focus on three key areas: accuracy (does the code work?), complexity (can it handle tough tasks?), and generation quality (is it clean and usable?).</p>
+
+      <h3>1. Accuracy</h3>
+      <p>Gemini 2.5 Pro: Posts on X and early tests rave about its one-shot precision. Tasked with a JavaScript flight simulator, it nailed it—functional controls, smooth rendering, all in 570 lines. It scores 63.8% on SWE-Bench, edging out Claude's 62.3%. The catch? Some users report minor bugs in edge cases, requiring a quick debug.</p>
+      <p>DeepSeek V3-0324: This model's a mixed bag. For a chess game in HTML, it churned out a whopping 2,372 lines—overkill, but it worked. It aces simpler tasks (90.2% on HumanEval) and beats Claude in LeetCode medium problems, but its verbosity can bloat projects unnecessarily.</p>
+      <p>Claude 3.7 Sonnet: The gold standard for reliability. Its Minecraft game in Python was flawless—block placement, inventory, all spot-on in under 1,000 lines. With 94% first-pass correctness on SWE-Bench Verified, it's the least likely to need fixes.</p>
+      <p>Winner: Claude 3.7 Sonnet. Precision trumps all, and Claude's consistency is unmatched.</p>
+
+      <h3>2. Complexity</h3>
+      <p>Gemini 2.5 Pro: That 1-million-token context window shines here. It tackled a 3D Rubik's Cube visualizer in Three.js—scramble, solve, animate—flawlessly in one go. Its reasoning chops (84% on GPQA) make it a beast for multi-step challenges.</p>
+      <p>DeepSeek V3-0324: Surprisingly strong for a non-reasoning model. It built a metropolitan city simulation in 3JS—roads, traffic, toggles—scoring 3/4 on Composio's vibe-based test, outpacing Claude's 1/4. But it stumbles on intricate logic without extra prompts.</p>
+      <p>Claude 3.7 Sonnet: The champ of tough coding. It rewrote a GTK3 app to GTK4 (under 2KLOC) with perfect logic and readability. Its hybrid reasoning mode shines, solving 89.1% of MATH benchmark problems in extended mode.</p>
+      <p>Winner: Gemini 2.5 Pro. Its massive context and reasoning edge out Claude's finesse for sprawling, complex projects.</p>
+
+      <h3>3. Generation Quality</h3>
+      <p>Gemini 2.5 Pro: Clean, concise, and modern—570 lines for a chess game is lean compared to DeepSeek. But it's not as polished as Claude; some outputs feel rushed, lacking comments or structure.</p>
+      <p>DeepSeek V3-0324: Quantity over quality. That 2,372-line chess game? Functional, but a mess—minimal comments, redundant code. It's production-ready only with heavy editing, though its speed (60 tokens/second) is a plus.</p>
+      <p>Claude 3.7 Sonnet: The coder's poet. Its outputs are elegant—structured, documented, maintainable. A ray-tracing scene with spheres? Vibrant, efficient, and readable, rivaling Gemini but with better polish.</p>
+      <p>Winner: Claude 3.7 Sonnet. Quality code saves time, and Claude delivers.</p>
+
+      <h2>Real-World Edge</h2>
+      <p>Gemini 2.5 Pro: Ideal for big projects—think full-stack apps or data-heavy workflows. Free access and speed make it a startup's dream, but you'll need to polish its rough edges.</p>
+      <p>DeepSeek V3-0324: The budget king—$0.40 per million tokens vs. Claude's $15. Perfect for rapid prototyping or solo devs who don't mind refactoring. Open-source bonus: tweak it yourself.</p>
+      <p>Claude 3.7 Sonnet: The pro's choice. Teams love its reliability and clarity; it's 28% faster at full software tasks. Pricey, but worth it for mission-critical code.</p>
+
+      <h2>The Verdict</h2>
+      <p>Best Overall: Claude 3.7 Sonnet. It's the coder's Swiss Army knife—accurate, polished, and reliable. If you want code that works out of the box and scales, Claude's your pick.</p>
+      <p>Best for Complexity: Gemini 2.5 Pro. Its context window and reasoning make it unbeatable for massive, intricate tasks.</p>
+      <p>Best Value: DeepSeek V3-0324. Cheap, fast, and capable—it's the underdog that punches up.</p>
+      <p>In 2025, your choice depends on your gig. Solo dev on a budget? DeepSeek. Big team, big stakes? Claude. Crazy ambitious project? Gemini. The AI coding war's heating up, and we're all winning. Which one's your go-to? Drop your take below!</p>
     `,
     image: '/blog5.jpg',
     date: '27 days ago',
     timestamp: new Date(Date.now() - 27 * 24 * 60 * 60 * 1000), // 27 days ago
-    readTime: '1 min read'
+    readTime: '10 min read'
   }
 ]
 

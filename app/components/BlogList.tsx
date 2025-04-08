@@ -34,22 +34,22 @@ const ALL_BLOG_POSTS = [
   },
   {
     id: '4',
-    title: 'The AI Gold Rush (That Nobody Is Talking About)',
-    summary: 'Hey Reader, I\'m late to write this email, but for a good reason. And it might be the best mistake I\'ve made in years. Because for the past week, I\'ve obsessed about AI coding. No videos. No Instagram stories. Nothing. Just building apps.',
+    title: 'The Future of AI: A World Transformed and the Rise of the AI-Savvy Generation',
+    summary: 'Artificial Intelligence (AI) isn\'t just a tool—it\'s a tidal wave reshaping the world as we know it. By April 2025, we\'re already seeing its ripples: OpenAI\'s $300 billion valuation, DeepSeek\'s open-source insurgency, and SoftBank\'s trillion-dollar robot factory gambit. But this is just the beginning.',
     image: '/blog4.jpg',
     date: '19 days ago',
     timestamp: new Date(Date.now() - 19 * 24 * 60 * 60 * 1000), // 19 days ago
-    readTime: '1 min read'
+    readTime: '8 min read'
   },
   {
     id: '5',
-    title: 'The Brutal Truth About AI (What It Means For You)',
-    summary: 'Hey Reader, AI just replaced me... and I helped it happen. You can listen to this email here (like a mini podcast). This week, I\'ve maybe done too much with AI. I\'ve trained my own image models. Created videos from AI images.',
+    title: 'Gemini 2.5 Pro vs. DeepSeek V3-0324 vs. Claude 3.7 Sonnet: The Coding Showdown of 2025',
+    summary: 'The AI race in 2025 is a coder\'s dream—or nightmare, depending on your perspective. With Google\'s Gemini 2.5 Pro, DeepSeek\'s V3-0324, and Anthropic\'s Claude 3.7 Sonnet vying for supremacy, developers are spoiled for choice. But which one truly reigns supreme when it comes to coding capabilities and generation?',
     image: '/blog5.jpg',
     date: '27 days ago',
     timestamp: new Date(Date.now() - 27 * 24 * 60 * 60 * 1000), // 27 days ago
-    readTime: '1 min read'
-  }
+    readTime: '10 min read'
+  },
 ]
 
 // Initial blogs to display
