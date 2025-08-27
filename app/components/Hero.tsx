@@ -60,7 +60,7 @@ export default function Hero() {
           <div className="md:w-1/4">
             <div className="rounded-full overflow-hidden bg-primary h-60 w-60 md:h-48 md:w-48 mx-auto">
               <Image 
-                src="/profile.jpg" 
+                src="/blog-profile.png" 
                 alt="Achyut's Profile Picture" 
                 width={240} 
                 height={240} 
@@ -77,7 +77,7 @@ export default function Hero() {
             </p>
             
             <p className="text-gray-700 mb-6 text-center md:text-left" style={{ fontSize: '14px' }}>
-              1st year college student trying to be a creator, now teaching AI & automation to founders. Every week, I send 1-2 emails with free prompts, tools and news. Guaranteed no spam.
+              2nd year college student trying to be a creator, now teaching AI & automation to founders.
             </p>
             
             {/* Subscription Form */}

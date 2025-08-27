@@ -9,7 +9,7 @@ export default function Profile() {
         <div className="inline-block bg-gray-100 p-2 rounded-xl shadow-md">
           <div className="h-40 w-40 rounded-full overflow-hidden bg-yellow-100">
             <Image 
-              src="/profile.jpg" 
+              src="/.jpg" 
               alt="Achyut's Profile Picture" 
               width={160} 
               height={160} 
@@ -23,10 +23,10 @@ export default function Profile() {
         <p className="text-sm uppercase tracking-wider text-gray-500 mb-2">profile</p>
         <h1 className="font-display text-title mb-3">Achyut</h1>
         <p className="font-sans text-subtitle text-gray-700 mb-4">
-          I help developers and entrepreneurs turn ai into profitable apps.
+          I help developers and entrepreneurs turn AI into profitable apps.
         </p>
         <p className="font-sans text-body text-gray-600 mb-8 max-w-2xl">
-          1st year college student trying to be a creator, now teaching AI & automation to founders. Every week, I send 1-2 emails with free prompts, tools and news. Guaranteed no spam.
+          2nd year college student trying to be a creator, now teaching AI & automation to founders.
         </p>
       </div>
     </section>

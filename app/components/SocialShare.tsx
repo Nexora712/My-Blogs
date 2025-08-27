@@ -1,6 +1,6 @@
 "use client"
 
-import { FaTwitter, FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa'
+import { FaTwitter, FaInstagram, FaWhatsapp, FaFolderOpen } from 'react-icons/fa'
 
 export default function SocialShare() {
   const shareUrl = typeof window !== 'undefined' ? window.location.href : ''
@@ -9,22 +9,23 @@ export default function SocialShare() {
     {
       name: 'Twitter',
       icon: <FaTwitter className="h-5 w-5" />,
-      url: `https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent('Check out this blog by Achyut!')}`
-    },
-    {
-      name: 'Facebook',
-      icon: <FaFacebook className="h-5 w-5" />,
-      url: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`
+      url: `https://x.com/Achyut18214831`
     },
     {
       name: 'Instagram',
       icon: <FaInstagram className="h-5 w-5" />,
-      url: `https://instagram.com`
+      url: `https://www.instagram.com/achyut8416/`
     },
     {
       name: 'WhatsApp',
       icon: <FaWhatsapp className="h-5 w-5" />,
-      url: `https://api.whatsapp.com/send?text=${encodeURIComponent(`Check out this blog by Achyut! ${shareUrl}`)}`
+      url: `https://api.whatsapp.com/send?phone=919311432974`
+    },
+    {
+      name: 'Portfolio',
+      icon: <FaFolderOpen className="h-5 w-5" />,
+      url: `https://achyut-portfolio-2025.vercel.app/`
+      // Replace with your portfolio URL
     }
   ]
   
@@ -40,7 +41,9 @@ export default function SocialShare() {
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 text-gray-600 hover:text-primary transition-colors"
-            aria-label={`Share on ${social.name}`}
+            aria-label={social.name === 'Portfolio'
+              ? 'Visit portfolio'
+              : `Share on ${social.name}`}
           >
             {social.icon}
           </a>
@@ -48,4 +51,4 @@ export default function SocialShare() {
       </div>
     </div>
   )
-} 
+}
